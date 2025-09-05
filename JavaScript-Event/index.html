@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript</title>
+</head>
+<body>
+  <p onclick="showMessage()" id="text">Click me to see a message...</p>
+
+  <button onfocus="highlightFocus()" onblur="removeFocus()" id="focus">
+    Focus me
+  </button>
+
+  <form action="" onsubmit=" return Login()">
+    <br />
+    Name:
+    <br />
+    <input type="text" id="name" />
+    <br />
+    Email:
+    <br />
+    <input type="email" id="email" />
+    <br />
+    <button>Submit</button>
+  </form>
+
+
+  <form action="" onsubmit="return submitForm()">
+    Roll Number
+    <br />
+    <input type="text" id="rollnumber" />
+    <br />
+    Campus
+    <br />
+    <input type="text" id="campus" />
+    <br />
+    <button>Submit</button>
+  </form>
+
+
+   <img
+    src="https://www.carpro.com/hs-fs/hubfs/2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg?width=1020&name=2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg"
+    alt="pic"
+    id="img"
+    width="400"
+  />
+
+  <script src="script.js"></script>
+</body>
+</html>
