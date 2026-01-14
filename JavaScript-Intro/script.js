@@ -17,6 +17,6 @@ a++;
 console.log(a);
 --a;
 
-console.log(a);
+// console.log(a);
 
 alert('Welcome to JavaScript Intro');
